@@ -54,18 +54,11 @@ service = Service('./chromedriver-win64/chromedriver.exe')
 - Lê os links do `Hrefs.txt` e acessa cada um deles.
 - Filtra e salva os URLs finais no arquivo `Extracion.txt`.
 
-## ⚠️ Possíveis Problemas e Soluções
-| Erro | Solução |
-|------|---------|
-| `selenium.common.exceptions.WebDriverException` | Verifique se o ChromeDriver está no caminho correto. |
-| `TimeoutException` | Tente aumentar o tempo de espera no `WebDriverWait`. |
-| `PermissionError` | Execute o terminal com permissões de administrador. |
-
 ## 📝 Melhorias Futuras
 - Melhor tratamento de erros e exceções.
 - Implementação de multithreading para maior velocidade.
 - Adicionar suporte para diferentes navegadores.
 
 ---
-Feito com ❤️ por [Seu Nome] 🚀
+Feito com por Anderson 🚀
 
